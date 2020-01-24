@@ -1,4 +1,5 @@
-let totalInSeconds = 140153;
+let input = require('fs').readFileSync('/dev/stdin', 'utf8');
+let totalInSeconds = Number(input);
 let remainderInSeconds = totalInSeconds;
 
 let hours = totalInSeconds / 3600;
