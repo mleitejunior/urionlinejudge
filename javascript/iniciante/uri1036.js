@@ -1,4 +1,4 @@
-let input = '10.0 20.1 5.1';
+let input = require('fs').readFileSync('/dev/stdin', 'utf8');
 let inputValues = input.split(' ');
 
 let numA = Number(inputValues.shift());
